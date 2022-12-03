@@ -1,9 +1,9 @@
 package Hooks;
 
 import Context.ScenarioContext;
+import io.cucumber.java.Before;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.Before;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -23,6 +23,6 @@ public class Hooks {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        SCENARIO_CONTEXT.saveData("uriString", prop.getProperty("app.uri"));
+        SCENARIO_CONTEXT.saveData("urlString", prop.getProperty("app.uri"));
     }
 }
