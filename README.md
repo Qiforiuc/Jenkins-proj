@@ -4,8 +4,7 @@ Tests are based on Reqres.in API.
 Reqres.in provides fake data to test your front-end against a real API.
 
 # Language
-Java 17 -> Maven 3.8.1,
-Gherkin
+Gherkin, Java 17 -> Maven 3.8.1
 
 # Frameworks used
 Rest Assured, junit, cucumber, info.cukes, jackson.core(databind), lombok
