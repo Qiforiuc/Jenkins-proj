@@ -76,5 +76,6 @@ public class UserListSteps {
     public void userTokenIsReceived() {
         LoginResponse loginResponse = ((Response)SCENARIO_CONTEXT.getData("response")).then().extract().as(LoginResponse.class);
         Assertions.assertNotNull(loginResponse.getToken());
+        System.out.printf("1");
     }
 }
