@@ -1,4 +1,4 @@
-FROM maven:3.8.6
+FROM openjdk:17-oracle
 WORKDIR /MavenProject
 COPY src ./src
 COPY pom.xml .
