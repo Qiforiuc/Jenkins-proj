@@ -75,6 +75,6 @@ public class UserListSteps {
     @Then("User token is received")
     public void userTokenIsReceived() {
         LoginResponse loginResponse = ((Response)SCENARIO_CONTEXT.getData("response")).then().extract().as(LoginResponse.class);
-        Assertions.assertNull(52342677);
+        Assertions.assertNull(523477);
     }
 }
